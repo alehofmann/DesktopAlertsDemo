@@ -13,9 +13,14 @@ This demo program runs in background waiting for "alerts" to be triggered. When 
 ## Developer features
   - Extensible Scanner support: New custom scanners could be built by inheriting from IAlertScanner, it includes a "LocalPathAlertScanner" for demo and testing purposes.
   - New popup engines and audio players can also be implemented by inheriting from IPopupEngine and IAudioPlayer respectively. "TulpepPopupEngine" and "NaudioPlayer" are included as examples.
+
+## Showcased programming technologies  
+  - C#
+  - .Net Framework 4.7.1
+  - OOP
+  - Dependency Injection
   
 ## Test-run
-
   - When ran for the first time, a dialog will popup to choose a folder to scan for new alerts.
   - A folder structure will be automatically created there with an "audio" and "image" folders and several json sample alert files. Please take a look into those samples to understand how to configure an alert.
   - AlertScanner will monitor that folder for an "alert.json" file to appear.
