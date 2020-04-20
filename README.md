@@ -1,6 +1,7 @@
 # DesktopAlertsDemo
-Desktop Alerts small demo app
+Proof-of-concept Winforms application that listens for incoming alerts and notifies Windows users with a popup on the screen.
 
+## Description
 This demo program runs in background waiting for "alerts" to be triggered. When an alert is detected it displays a popup, on the screen, optionally including a picture and a sound.
 
 ## End-user features
