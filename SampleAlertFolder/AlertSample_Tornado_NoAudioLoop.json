@@ -1,0 +1,12 @@
+{
+	"popupwidth":1000,
+	"popupHeight":1000,
+	"popupDuration":20000,
+	"allowClose":"true",
+	"alertTitle":"!! TORNADO ALERT !!",
+	"alertContent":"Evacuate Immediately",
+	"fontSize":30,
+	"alertImageFile":"alert.png",
+	"alertAudioFile":"tornado_siren.mp3",
+	"loopAudio":"false"
+}
