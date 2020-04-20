@@ -22,15 +22,15 @@ This demo program runs in background waiting for "alerts" to be triggered. When 
   
 ## Test-run
   - When ran for the first time, a dialog will popup to choose a folder to scan for new alerts.
-  - A folder structure will be automatically created there with an "audio" and "image" folders and several json sample alert files. Please take a look into those samples to understand how to configure an alert.
-  - AlertScanner will monitor that folder for an "alert.json" file to appear.
+  - A folder structure will be automatically created there, with an "audio" and "image" sub-folders and several json sample alert files. Please take a look into those sample json files to understand how to configure an alert.
+  - AlertScanner will monitor alerts folder for an incoming "alert.json" file.
   - Processing an alert can produce 3 different outcomes:
     - **Success**: Alert shows
     - **Warning**: In the case that for example a resource is missing (an image or audio file was not found) Alert shows, but missing media is not played, and an "alert_warn.txt" file is created which shows more detail about what gone wrong.
     - **Error**: json file format is invalid, or some required parameter is missing. 
       - Alert will not be triggered
       - An alert_error.txt file will be created with error detail
-      - The alert that causes the error (alert.json) will be renamed to alert.json.failed.
+      - The alert.json file originating the error will be renamed to "alert.json.failed".
       
   
   
